@@ -10,9 +10,6 @@ def set_up():
     train_x, train_y = load_dataset()
     chatbot_model.train_model(train_x, train_y)
 def generate_response(msg):
-    #ints = chatbot_model.predict_class(msg)
-    #response = chatbot_model.response(ints)
-    #return response
     return chatbot_model.response(msg)
 
 def send():

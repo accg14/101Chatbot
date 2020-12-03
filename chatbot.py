@@ -33,7 +33,6 @@ class Chatbot:
     print("Model builded successfully")
 
   def predict_class(self,sentence):
-    print(sentence)
     p = bow(sentence, self.words, show_details=False)
     res = self.model.predict(np.array([p]))[0]
     results = [[i,r] for i,r in enumerate(res) if r>self.error_threshold]
@@ -46,5 +45,6 @@ class Chatbot:
 
   def response(self,msg):
     ints = self.predict_class(msg)
+    print(ints)
     res = get_response(ints,self.intents)
     return res
