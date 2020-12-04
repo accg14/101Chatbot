@@ -25,11 +25,11 @@ With the type of input as a key, retrieve a response which matches whit it.
  
 # Tech stack
   - Python 3.6.9
-  - numpy
-  - random 1.19.4
+  - numpy 1.19.4
   - nltk 3.5
-  - tkinter
   - tensorflow 1.14.0
+  - random
+  - tkinter
 
 ### How to use?
 ```sh
