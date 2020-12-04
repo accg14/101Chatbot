@@ -1,6 +1,6 @@
 # 101 Chatbot
 # Intro
-This project has been builded as fork of [HowToCreateAChatbot](https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44), which a few changes (modularization).
+This project has been builded as a fork of [HowToCreateAChatbot](https://towardsdatascience.com/how-to-create-a-chatbot-with-python-deep-learning-in-less-than-an-hour-56a063bdfc44), with a different approach (modularization).
 The goal is to create a Chatbot which is capable of interact with a human beign, taking about health-related topics.
 
 # How it works?
