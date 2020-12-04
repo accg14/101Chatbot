@@ -20,8 +20,8 @@ With the type of input as a key, retrieve a response which matches whit it.
   - Sequential neural network (multi-layer perceptron)
   - 3 layers (128 | 64 | #categories )
   - Activation functions: relu -> relu -> softmax
-  - sgd
-  - loss
+  - Optimizer: sgd
+  - Loss: categorical crossentropy
  
 # Tech stack
   - Python 3.6.9
@@ -37,7 +37,7 @@ $ python3 chat_gui.py
 ```
 
 # Further Work
- - Try with RRN
+ - Try with RNN
  - Try with other sequential configs
  - Re train over interaction
  - Resolve using word embeddings
@@ -47,6 +47,3 @@ License
 ----
 
 MIT
-
-
-**Free Software, Hell Yeah!**
