@@ -24,11 +24,12 @@ With the type of input as a key, retrieve a response which matches whit it.
   - loss
  
 # Tech stack
-  - Python
+  - Python 3.6.9
   - numpy
-  - random
-  - nltk
+  - random 1.19.4
+  - nltk 3.5
   - tkinter
+  - tensorflow 1.14.0
 
 ### How to use?
 ```sh
@@ -40,6 +41,7 @@ $ python3 chat_gui.py
  - Try with other sequential configs
  - Re train over interaction
  - Resolve using word embeddings
+ - Build the chatbot through some appropiate framework
 
 License
 ----
